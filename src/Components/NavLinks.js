@@ -5,7 +5,7 @@ export default function NavLinks() {
   return (
     <div style={{position:"relative", msTransform: "skewY(20deg)",height:"500px", backgroundColor:"red", /* IE 9 */
    transform: "skewY(-20deg)",
-   overFlow:"hidden", zIndex:0 }} >
+   overFlow:"hidden", zIndex:50 }} >
       <div style={{position:"relative", transform:"skewY(20deg)" }} >
       <ul style={styleNavLinks}>
         <li>home</li>
