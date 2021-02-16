@@ -2,8 +2,14 @@ import React from "react";
 import ReactDom from "react-dom";
 
 import MyApp from "./demo/MyApp";
+ReactDom.render(<MyApp />,document.getElementById("root"))
+// //////////   Demo3
+// import React from "react";
+// import ReactDom from "react-dom";
 
-ReactDom.render(<MyApp />, doucment.getElementById("root"));
+// import MyApp from "./demo/MyApp";
+
+// ReactDom.render(<MyApp />, document.getElementById("root"));
 
 // //////////   Demo2
 // import React from "react";
@@ -19,8 +25,6 @@ ReactDom.render(<MyApp />, doucment.getElementById("root"));
 //   );
 // }
 // ReactDom.render(<MyApp />, document.getElementById("root"));
-
-
 
 //////////   Demo1
 // import React from "react";
