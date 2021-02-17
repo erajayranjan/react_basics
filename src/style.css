@@ -5,18 +5,25 @@ h1, p {
   font-family: Lato;
 }
 .container {
-  /* display:flex; */
-  background-color: lightblue;
-  width: 50%;
+  display:flex;
+
+  flex-wrap: wrap;
+  box-align:  inherit;
+  background-color: rgb(177, 196, 202);
+  width: vw;
   align-items: center;
-  align-content: center;
+  align-content: space-between ;
   text-align: center;
-  padding: 10px;
+  gap: 5px;
+  padding: 0px;
   overflow: hidden;
+  max-width: 500px;
+  border:solid;
+  border-radius: 10px;
   
 }
 .container img{
-  max-width: 500pz;
-  height: 200pz;
+  max-width: 95%;
+  height: 200px;
   overflow: hidden;
 }
