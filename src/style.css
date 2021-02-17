@@ -1,3 +1,22 @@
+body {
+  background-color: rgba(206, 203, 67, 0.747);
+}
 h1, p {
   font-family: Lato;
+}
+.container {
+  /* display:flex; */
+  background-color: lightblue;
+  width: 50%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+  
+}
+.container img{
+  max-width: 500pz;
+  height: 200pz;
+  overflow: hidden;
 }
