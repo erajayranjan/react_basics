@@ -5,7 +5,7 @@ import ContactCard from "./ContactCard";
 
 function MyApp(){
   return (
-    <div className="container">
+    <div className="w-full bg-blue-500 flex flex-start flex-wrap justify-center content-center p-2">
       <ContactCard />
       <ContactCard />
       <ContactCard />
