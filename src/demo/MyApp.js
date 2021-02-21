@@ -5,12 +5,13 @@ import ContactCard from "./ContactCard";
 
 function MyApp(){
   return (
-    <div className="w-full bg-blue-500 flex flex-start flex-wrap justify-center content-center p-2">
-      <ContactCard />
-      <ContactCard />
-      <ContactCard />
-      <ContactCard />
-      <ContactCard />
+    <div className="w-full bg-white flex flex-center flex-wrap justify-center p-2">
+    <ContactCard contact={{ img : "https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGF3bnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" ,name:"Sohan", description:"Sohan is my Friend"} }
+    />
+    <ContactCard contact={{ img : "https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGF3bnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" ,name:"Sohan", description:"Sohan is my Friend"} }
+    />
+    <ContactCard contact={{ img : "https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGF3bnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" ,name:"Sohan", description:"Sohan is my Friend"} }
+    />
     </div>
     
   );

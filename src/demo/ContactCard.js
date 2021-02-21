@@ -3,19 +3,18 @@ import ReactDom from "react-dom";
 
 import "../style.css";
 
-export default function ContactCard(){
+export default function ContactCard(props){
   return (
-    <div className="flex flex-col justify-center font-bold content-center text-sm  border border-1 p-1 border-solid border-gray-500 w-1/2 text-center text-blue-900">
-      <img    src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGF3bnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="image"
+    <div className="flex flex-col justify-center font-bold content-center text-sm m-1 p-1 sm: w-5/12 md: w-1/4 text-center bg-blue-100 text-blue-900 shadow-2xl">
+      <img src={props.contact.img} alt="image"
 
       />
       <h1 className="font-bold text-lg text-gray-700 "> 
-        Hello world
+        {props.contact.name}
       </h1>
             
       <p>
-        This an image showing beauty of sunrise in mountain area.
-         Its really great to visit such desstination in coming time.
+        { props.contact.description }
       </p>
     </div>
   );
