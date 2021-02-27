@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDom from "react-dom";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer"; 
+import About from "./components/About"; 
 
 import MyApp from "./demo/MyApp";
-ReactDom.render(<MyApp />,document.getElementById("root"))
-ReactDom.render(<Header />,document.getElementById("header"))
-ReactDom.render(<Footer />,document.getElementById("footer"))
+ReactDom.render(<About />, document.getElementById("root"))
+// ReactDom.render(<MyApp />,document.getElementById("root"))
+ ReactDom.render(<Header />,document.getElementById("header"))
+// ReactDom.render(<Footer />,document.getElementById("footer"))
 // //////////   Demo3
 // import React from "react";
 // import ReactDom from "react-dom";
