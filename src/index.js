@@ -1,25 +1,28 @@
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
 import Header from "./components/Header";
-import Footer from "./components/Footer"; 
-import About from "./components/About"; 
+import Footer from "./components/Footer";
+import About from "./components/About";
+import App from "./App";
+// import NavLinks from "./components/NavLinks";
 
-import MyApp from "./demo/MyApp";
-ReactDom.render(<About />, document.getElementById("root"))
-// ReactDom.render(<MyApp />,document.getElementById("root"))
- ReactDom.render(<Header />,document.getElementById("header"))
-// ReactDom.render(<Footer />,document.getElementById("footer"))
+// ReactDOM.render(< NavLinks />,document.getElementById("navlinks"))
+//ReactDOM.render(<About />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Header />, document.getElementById("header"));
+
+// ReactDOM.render(<Footer />,document.getElementById("footer"))
 // //////////   Demo3
 // import React from "react";
-// import ReactDom from "react-dom";
+// import ReactDOM from "react-dom";
 
 // import MyApp from "./demo/MyApp";
 
-// ReactDom.render(<MyApp />, document.getElementById("root"));
+// ReactDOM.render(<MyApp />, document.getElementById("root"));
 
 // //////////   Demo2
 // import React from "react";
-// import ReactDom from "react-dom";
+// import ReactDOM from "react-dom";
 
 // function MyApp() {
 //   return(
@@ -30,13 +33,13 @@ ReactDom.render(<About />, document.getElementById("root"))
 //     </div>
 //   );
 // }
-// ReactDom.render(<MyApp />, document.getElementById("root"));
+// ReactDOM.render(<MyApp />, document.getElementById("root"));
 
 //////////   Demo1
 // import React from "react";
-// import ReactDom from "react-dom";
-// //ReactDom.render(what to Render, Where to Render);
-// ReactDom.render(<h1>Hello First React demo</h1>, document.getElementById("root"));
+// import ReactDOM from "react-dom";
+// //ReactDOM.render(what to Render, Where to Render);
+// ReactDOM.render(<h1>Hello First React demo</h1>, document.getElementById("root"));
 // import React from "react";
 // import ReactDOM from "react-dom";
 

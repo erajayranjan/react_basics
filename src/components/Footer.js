@@ -6,12 +6,6 @@ export default function Header(){
         <h1 > 
           This is a Footer Section Demo!
         </h1>
-         <h1 > 
-          This is a Footer Section Demo!
-        </h1>
-         <h1 > 
-          This is a Footer Section Demo!
-        </h1>
       </div>
   );
 }
