@@ -9,10 +9,10 @@ export default function NavLinks() {
       //  overFlow:"hidden", zIndex:50 }}  
     >
       <ul className="flex gap-5">
-        <li>home</li>
-        <li>products</li>
-        <li>about</li>
-        <li>contact</li>
+        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 bg-gradient-to-r from-green-400 to-blue-500 hover:text-blue-800 capitalize " >home</li>
+        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 bg-gradient-to-r from-green-400 to-blue-500 hover:text-blue-800 capitalize " >products</li>
+        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 bg-gradient-to-r from-green-400 to-blue-500 hover:text-blue-800 capitalize " >about</li>
+        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 bg-gradient-to-r from-green-400 to-blue-500 hover:text-blue-800 capitalize " >contact</li>
       </ul>
    </div>
 
