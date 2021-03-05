@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 export default function Header() {
   return (
 <div classNameName="w-full " >
-    <div className="flex items-center justify-between bg-gray-800 p-5 w-full h-24 text-gray-100">
+    <div className="flex items-center justify-between bg-gradient-to-br from-gray-900 to-gray-300  p-5 w-full h-24 text-gray-100">
       <div className="flex">
         <img className=" w-20 h-20 rounded-full border-red-200 border-2 " src="https://lh3.googleusercontent.com/ogw/ADGmqu9nXSPJq6SgQ8Rcs5ApqYORU9WgfWZTp1bvFDFB7w=s32-c-mo"
         />

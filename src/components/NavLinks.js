@@ -8,11 +8,11 @@ export default function NavLinks() {
       //  transform: "skewY(-20deg)",
       //  overFlow:"hidden", zIndex:50 }}  
     >
-      <ul className="flex gap-5">
-        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 bg-gradient-to-r from-green-400 to-blue-500 hover:text-blue-800 capitalize " >home</li>
-        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 bg-gradient-to-r from-green-400 to-blue-500 hover:text-blue-800 capitalize " >products</li>
-        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 bg-gradient-to-r from-green-400 to-blue-500 hover:text-blue-800 capitalize " >about</li>
-        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 bg-gradient-to-r from-green-400 to-blue-500 hover:text-blue-800 capitalize " >contact</li>
+      <ul className="flex gap-1 sm:gap-2 ">
+        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 hover:text-blue-800 capitalize " >home</li>
+        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 hover:text-blue-800 capitalize " >products</li>
+        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 hover:text-blue-800 capitalize " >about</li>
+        <li className="border-box p-2 rounded-lg border-b-4 bg-blue-600 hover:bg-blue-200 hover:text-blue-800 capitalize " >contact</li>
       </ul>
    </div>
 

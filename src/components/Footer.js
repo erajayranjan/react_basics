@@ -1,11 +1,17 @@
 import React from "react";
 import "../style.css";
+import "./data/Profile";
+
 export default function Header(){
   return (
-    <div className="w-full flex flex-col h-32 items-center   justify-center bg-blue-600" style={{ backgroundColor: "", padding:"", color:"" }}>
+    <div className="flex items-center justify-center bg-gradient-to-tl from-gray-900 to-gray-300  p-5 w-full h-24 text-gray-100" style={{ backgroundColor: "", padding:"", color:"" }}>
         <h1 > 
-          This is a Footer Section Demo!
+          &#xa9; trainU Academy { Details.id  }
         </h1>
+        
+        <p>
+          &#xa9; trainU Academy
+        </p>
       </div>
   );
 }

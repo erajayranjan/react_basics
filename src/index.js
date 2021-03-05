@@ -7,7 +7,6 @@ import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-
 // import NavLinks from "./components/NavLinks";
 // ReactDOM.render(< NavLinks />,document.getElementById("navlinks"))
 //ReactDOM.render(<About />, document.getElementById("root"))
